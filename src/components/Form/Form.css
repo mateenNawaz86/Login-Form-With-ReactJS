@@ -1,0 +1,91 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.user-logo {
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+
+.fa-user-circle {
+  font-size: 6rem;
+  color: #4c9bba;
+}
+
+.inp_Container {
+  margin-bottom: 1.5rem;
+}
+
+.username_inp,
+.psw_inp {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.username_inp input,
+.psw_inp input {
+  display: block;
+  width: 100%;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  outline: none;
+  border: none;
+  background-color: #b6dab6;
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+.fa-user,
+.fa-lock {
+  background-color: #c6dec9;
+  color: #7b9582;
+  padding: 0.6rem;
+  border-collapse: collapse;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.confirm_area {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.check_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffff;
+  font-size: 0.8rem;
+}
+
+.check_area p {
+  margin-left: 10px;
+  user-select: none;
+}
+
+.chkBox {
+  width: 10px;
+  height: 10px;
+  color: #fff;
+}
+
+.frgt_link {
+  color: #4d9dbe;
+  text-decoration: none;
+  font-size: 0.8rem;
+  user-select: none;
+}
+.frgt_link:hover {
+  color: #46b0da;
+}
+
+/* links_area */
+.links_area {
+  margin-top: 3rem;
+}
